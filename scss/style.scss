@@ -11,8 +11,6 @@
 #soc {
     ul {
         background-color: #000000;
-        margin: 0;
-        padding: 0;
 
         li {
             color: #afafaf;
@@ -22,7 +20,11 @@
             margin-bottom: 15px;
 
             a {
+                transition: all.4s ease;
                 color: #afafaf;
+            }
+            a:hover {
+                color: #ffffff;
             }
         }
 
@@ -37,5 +39,93 @@
         #sig_log_rss {
             margin-left: 400px;
         }
+    }
+}
+
+#m_menu {
+    border-bottom: 5px solid #d74340;
+    background-color: #1a1b1d;
+    padding-left: 20px;
+
+    ul {
+        padding-top: 40px;
+        padding-bottom: 45px;
+
+        a {
+            color: #fff;
+
+            li {
+                width: 86px;
+                color: #cccccc;
+                font-size: 13.5px;
+                display: inline-block;
+                padding-right: 15px;
+                padding-left: 15px;
+                border-right: 1px solid #616161;
+
+                span {
+                    transition: all.4s ease;
+                    color: #ffffff;
+                    text-transform: uppercase;
+                }
+            }
+            li:hover {
+                span {
+                    color: #d74340;
+                }
+            }
+
+            #logo {
+                width: 200px;
+                border: none;
+                margin-right: 107px;
+                padding-right: 0;
+                padding-left: 0;
+
+                span {
+                    text-transform: none;
+                    font-size: 37px;
+
+                    span {
+                        font-size: 26.5px;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+
+            #home {
+                width: 75px;
+                padding-left: 0;
+
+                span {
+                    color: #d74340;
+                }
+            }
+
+            #portf {
+                width: 75px;
+            }
+
+            #galle {
+                width: 70px;
+            }
+
+            #drop {
+                padding-right: 0;
+                border: none;
+            }
+        }
+    }
+}
+
+#text {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+
+    p {
+        text-align: center;
+        font-size: 30px;
+        color: #989898;
     }
 }
