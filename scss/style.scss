@@ -3,3 +3,39 @@
 @import "var";
 @import 'reset';
 
+.main {
+    width: 1000px;
+    height: 1908px;
+}
+
+#soc {
+    ul {
+        background-color: #000000;
+        margin: 0;
+        padding: 0;
+
+        li {
+            color: #afafaf;
+            display: inline-block;
+            font-size: 13.5px;
+            margin-top: 13px;
+            margin-bottom: 15px;
+
+            a {
+                color: #afafaf;
+            }
+        }
+
+        #call {
+            margin-left: 20px;
+        }
+
+        #email {
+            margin-left: 50px;
+        }
+
+        #sig_log_rss {
+            margin-left: 400px;
+        }
+    }
+}
