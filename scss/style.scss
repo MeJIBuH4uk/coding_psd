@@ -20,7 +20,7 @@
             margin-bottom: 13px;
 
             a {
-                transition: all.4s ease;
+                transition: all .4s ease;
                 color: #afafaf;
             }
             a:hover {
@@ -64,7 +64,7 @@
                 border-right: 1px solid #616161;
 
                 span {
-                    transition: all.4s ease;
+                    transition: all .4s ease;
                     color: #ffffff;
                     text-transform: uppercase;
                 }
@@ -148,18 +148,17 @@
     padding-bottom: 30px;
 
     #block_1, #block_2, #block_3 {
-        margin-right: 50px;
+        margin-right: 40px;
         width: 285px;
         float: left;
         color: #989898;
 
         h2 {
-            font-size: 20px;
-
+            font-size: 21px;
         }
 
         p {
-            font-size: 14.5px;
+            font-size: 15.5px;
             margin-top: 15px;
             margin-bottom: 20px;
         }
