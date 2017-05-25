@@ -1,0 +1,23 @@
+@import "compass";
+@import "compass/css3";
+@import "var";
+@import 'reset';
+
+#ul_git, #ul_index {
+    width: 95%;
+    margin-left: 1%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #fff;
+    border: 1px solid silver;
+    
+    .li_git, .li_index {
+        list-style: square;
+        font-size: 18px;
+
+        span {
+            font-size: 1.5em;
+            color: red;
+        }
+    }
+}
