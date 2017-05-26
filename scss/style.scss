@@ -39,10 +39,15 @@
     }
 
     a {
+        transition: all.3s ease;
         color: grey;
         text-align: right;
         font-size: 13.5px;
         margin-top: 2px;
+    }
+
+    a:hover {
+        color: #fff;
     }
 
     a:first-child {
@@ -71,6 +76,7 @@ header {
                 letter-spacing: 0.3px;
 
                 span {
+                    transition: all.3s ease;
                     text-transform: uppercase;
                     color: white;
                     font-size: 26px;
@@ -84,6 +90,12 @@ header {
             .under_logo {
                 font-size: 13.5px;
                 color: white;
+            }
+        }
+
+        a:hover {
+            span:first-child {
+                color: #d74340;
             }
         }
     }
@@ -100,6 +112,7 @@ header {
                 color: #fff;
 
                 p {
+                    transition: all.3s ease;
                     font-size: 12.5px;
                     text-transform: uppercase;
                     margin-bottom: -2px;
@@ -109,6 +122,12 @@ header {
                     color: silver;
                     font-size: 13px;
                     letter-spacing: 0;
+                }
+            }
+
+            a:hover {
+                p {
+                    color: #d74340;
                 }
             }
         }
