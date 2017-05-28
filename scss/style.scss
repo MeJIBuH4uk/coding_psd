@@ -25,7 +25,8 @@
 }
 
 .hr3 {
-
+    margin-top: 45px;
+    margin-bottom: 39px;
 }
 
 .soc {
@@ -255,6 +256,57 @@ header {
             margin-left: 20px;
         }
     }
+}
 
+.intro {
+    padding-left: 20px;
+    color: #666666;
+
+    .left {
+        float: left;
+        width: 45%;
+
+        h3 {
+            float: left;
+            font-size: 20pt;
+        }
+
+        p {
+            float: left;
+            font-size: 13pt;
+        }
+    }
+
+    .right {
+        float: left;
+        width: 45%;
+
+        div {
+            float: left;
+            width: 50%;
+
+            img {
+                float: left;
+                padding: 5px;
+                border: 1px solid #666666;
+            }
+
+            h4 {
+                float: left;
+                font-size: 17px;
+            }
+
+            p {
+                width: 55%;
+                float: left;
+                font-size: 12px;
+            }
+
+            span {
+                float: left;
+                color: #d74340;
+            }
+        }
+    }
 }
 
