@@ -25,14 +25,14 @@
 }
 
 .hr3 {
-    margin-top: 45px;
+    margin-top: 40px;
     margin-bottom: 39px;
 }
 
 .soc {
     background-color: #000;
     color: grey;
-    padding: 12px 20px 13px 20px;
+    padding: 11px 20px 13px 20px;
     float: left;
     font-size: 13.8px;
 
@@ -238,10 +238,12 @@ header {
         float: left;
         margin-bottom: 10px;
 
-        .control {
-            text-align: right;
-            float: right;
-            margin-left: 5px;
+        a {
+            .control {
+                text-align: right;
+                float: right;
+                margin-left: 5px;
+            }
         }
     }
     
@@ -264,47 +266,66 @@ header {
 
     .left {
         float: left;
-        width: 45%;
+        width: 48%;
 
         h3 {
             float: left;
-            font-size: 20pt;
+            font-size: 20px;
+            margin-bottom: 25px;
+            font-weight: normal;
         }
 
         p {
             float: left;
-            font-size: 13pt;
+            font-size: 16px;
         }
     }
 
     .right {
         float: left;
-        width: 45%;
+        width: 50%;
+        margin-left: 19px;
 
-        div {
+        h3 {
             float: left;
-            width: 50%;
+            font-size: 21px;
+            margin-bottom: 26px;
+            font-weight: normal;
+        }
 
-            img {
+        .profiles {
+            float: left;
+            
+            div {
                 float: left;
-                padding: 5px;
-                border: 1px solid #666666;
-            }
+                width: 50%;
+                margin-bottom: 20px;
 
-            h4 {
-                float: left;
-                font-size: 17px;
-            }
+                img {
+                    float: left;
+                    padding: 4px;
+                    border: 1px solid rgba(102, 102, 102, 0.33);
+                    margin-right: 8px;
+                }
 
-            p {
-                width: 55%;
-                float: left;
-                font-size: 12px;
-            }
+                h4 {
+                    float: left;
+                    font-size: 15px;
+                    font-weight: bold;
+                }
 
-            span {
-                float: left;
-                color: #d74340;
+                p {
+                    width: 55%;
+                    float: left;
+                    font-size: 14px;
+                    margin-bottom: 5px;
+                }
+
+                a {
+                    float: left;
+                    color: #d74340;
+                    font-size: 13.5px;
+                }
             }
         }
     }
